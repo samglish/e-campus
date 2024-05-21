@@ -40,7 +40,7 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="admission.html">Admission</a></li>
           <li class="dropdown"><a href="#"><span>Consulter</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -101,16 +101,46 @@
                   </div>
                   <div class="col form-group">
                     <input type="text" name="prenom" class="form-control" id="prenom" placeholder="Prenom" required>
-                  </div> </br>
-                  <div class="col form-group">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Prenom" required>
                   </div>
-                  
+                  <br><br>
+                  <div>
+                  <input type="text" name="email" class="form-control" id="email" placeholder="Email">
+                  </div>
+                  <br><br>
+                  <div class="col form-group">
+                    <input type="text" name="lieu" class="form-control" id="lieu" placeholder="Lieu de naissance" required>
+                  </div>
                   <div class="col form-group">
                     <input type="date" name="date" class="form-control" id="date" placeholder="date de naissance" required>
                   </div>
-                
-                <div class="text-center"><button type="submit">Envoyez le message</button></div>
+                  <br><br><br>
+                  <div class="col form-control">
+                    Choix Faculté et Niveau <br>
+                  <select name="faculte" class="option" id="faculte" placeholder="faculté?" required>
+                  <option>Faculté des sciences</option>
+                  <option>Faculté des arts, lettres et humaines</option>
+                  <option>Faculté des sciences economiques et gestions</option>
+                  <option>Faculté des sciences juridiques, politiques</option>
+                  <option>certification</option>
+                  </select>
+  &nbsp;&nbsp;&nbsp;
+                      <select name="Niveau" class="option" id="niveau" placeholder="Niveau" required>
+                        <option>Cycle licence</option>
+                        <option>Cycle Master</option>
+                        <option>certification</option>
+                        </select>
+                    </div>
+<div></div> <br>
+                  <div>
+                   <b>Lettre de motivation<font color="red">*</font></b> <input type="file" name="lettre" class="form-control" id="lettre" placeholder="Lettre de motivation" required>
+                   <b>Curriculum vitae<font color="red">*</font></b><input type="file" name="cv" class="form-control" id="cv" placeholder="CV" required>
+                   <b>Diplôme<font color="red">*</font></b> <input type="file" name="diplome" class="form-control" id="diplome" placeholder="diplome" required>
+                   <b>CNI/Passport<font color="red">*</font></b><input type="file" name="cni" class="form-control" id="cni" placeholder="cni" required>
+                   <b>Photo 4X4<font color="red">*</font></b> <input type="file" name="photo" class="form-control" id="photo" placeholder="Autre" required>
+                   <b>Certificat de naissance<font color="red">*</font></b><input type="file" name="naissance" class="form-control" id="naissance" placeholder="Autre" required>
+                  </div>
+                <div></div><br>
+                <div class="text-center"><button type="submit">soumettre mon dossier</button></div>
               </form>
             </div>
 
