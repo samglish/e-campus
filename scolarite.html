@@ -40,7 +40,7 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="admission.html">Admission</a></li>
           <li class="dropdown"><a href="#"><span>Consulter</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -51,7 +51,7 @@
           </li>
           <li><a class="nav-link scrollto" href="#team">Diplômes</a></li>
           <li><a href="blog.html">Requêtes</a></li>
-          <li class="dropdown"><a href="scolarite.html"><span>Scolarité</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a class="nav-link scrollto active" href="scolarite.html"><span>Scolarité</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Paiements</a></li>
               <li><a href="#">Quitus</a></li>
@@ -106,60 +106,139 @@
       </div>
     </section><!-- End Blog Single Section -->
 
+<!-- ======= Tabs Section ======= -->
+<section id="tabs" class="tabs">
+    <div class="container" data-aos="fade-up">
 
-<!-- ======= scolarite Section ======= -->
-  <div class="row">
-    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-      <div class="member" data-aos="fade-up" data-aos-delay="100">
-        <div class="member-img">
-          <img src="fs2.jpg" width="200%" class="img-fluid" alt="">
+      <ul class="nav nav-tabs row d-flex">
+        <li class="nav-item col-3">
+          <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+            <i class=""> </i>
+            <img src="fs2.jpg" width="30%"/>
+            <h4 class="d-none d-lg-block">FS</h4>
+          </a>
+        </li>
+        <li class="nav-item col-3">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+            <i class=""></i>
+            <img src="falsh.png" width="30%"/>
+            <h4 class="d-none d-lg-block">FALSH</h4>
+          </a>
+        </li>
+        <li class="nav-item col-3">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+            <i class=""></i>
+            <img src="fsjp.jpg" width="24%"/>
+            <h4 class="d-none d-lg-block">FSJP</h4>
+          </a>
+        </li>
+        <li class="nav-item col-3">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+            <i class=""></i>
+            <img src="faseg.png" width="30%"/>
+            <h4 class="d-none d-lg-block">FSEG</h4>
+          </a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active show" id="tab-1">
+          <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+              <h3>La faculté des sciences.</h3>
+              <p class="fst-italic">
+                Elle est composée de 05 départements.
+              </p>
+              <ul>
+                <li><i class="ri-check-double-line"></i> Département de Mathématiques-informatique.</li>
+                <li><i class="ri-check-double-line"></i> Département de Chimie.</li>
+                <li><i class="ri-check-double-line"></i> Département de Physique.</li>
+                <li><i class="ri-check-double-line"></i> Département des sciences biologiques.</li>
+                <li><i class="ri-check-double-line"></i> Département des sciences de la terre.</li>
+                </ul>
+              <p>
+                Vous avez un baccalauréat C,D,E,TI,F ou tout diplôme équivalent celle faculté est pour vous.
+              </p>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/et1.jpeg" alt="" class="img-fluid">
+            </div>
+          </div>
         </div>
-        <div class="member-info">
-          <h4>FS</h4>
-          <span>faculté des sciences</span>
+        <div class="tab-pane" id="tab-2">
+          <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+              <h3>La faculté des arts, lettres et sciences humaines.</h3>
+              <p class="fst-italic">
+                Elle est composée de 10 départements.
+              </p>
+              <ul>
+                <li><i class="ri-check-double-line"></i> Département de Langue et litterature française.</li>
+                <li><i class="ri-check-double-line"></i> Département de lettres bilingues.</li>
+                <li><i class="ri-check-double-line"></i> Département de langue et litterature anglaise.</li>
+                <li><i class="ri-check-double-line"></i> Département de Geographie.</li>
+                <li><i class="ri-check-double-line"></i> Département d'Histoire.</li>
+                <li><i class="ri-check-double-line"></i> Département de sociologie.</li>
+                <li><i class="ri-check-double-line"></i> Département des arts plastiques.</li>
+                <li><i class="ri-check-double-line"></i> Département de la communication.</li>
+                </ul>
+              <p>
+                Vous avez un baccalauréat A,B,AB ou tout diplôme équivalent celle faculté est pour vous.
+              </p>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 text-center">
+              <img src="assets/img/et4.jpeg" width="200%" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane" id="tab-3">
+          <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+              <h3>La faculté des sciences juridiques et politiques.</h3>
+              <p class="fst-italic">
+                Elle est composée de 03 départements.
+              </p>
+              <ul>
+                <li><i class="ri-check-double-line"></i> Département de Droit publique.</li>
+                <li><i class="ri-check-double-line"></i> Département de Droit Privé.</li>
+                <li><i class="ri-check-double-line"></i> Département de Droit international.</li>
+                </ul>
+              <p>
+                Vous avez un baccalauréat A,B,C,D,E,TI,F ou tout diplôme équivalent celle faculté est pour vous.
+              </p>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 text-center">
+              <img src="assets/img/et3.jpg" width="200%" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane" id="tab-4">
+          <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+              <h3>La faculté des sciences économiques et de gestions.</h3>
+              <p class="fst-italic">
+                Elle est composée de 03 départements.
+              </p>
+              <ul>
+                <li><i class="ri-check-double-line"></i> Département de Marketing.</li>
+                <li><i class="ri-check-double-line"></i> Département des sciences économiques.</li>
+                <li><i class="ri-check-double-line"></i> Département des sciences de gestions.</li>
+                </ul>
+              <p>
+                Vous avez un baccalauréat A,B,C,D,E,TI,F ou tout diplôme équivalent celle faculté est pour vous.
+              </p>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 text-center">
+              <img src="assets/img/et2.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
         </div>
       </div>
+
     </div>
+  </section><!-- End Tabs Section -->
 
-    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-      <div class="member" data-aos="fade-up" data-aos-delay="200">
-        <div class="member-img">
-          <img src="falsh.png" width="50%" class="img-fluid" alt="">
-        </div>
-        <div class="member-info">
-          <h4>FALSH</h4>
-          <span>faculté des arts, lettres</span>
-        </div>
-      </div>
-    </div>
 
-    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-      <div class="member" data-aos="fade-up" data-aos-delay="300">
-        <div class="member-img">
-          <img src="faseg.png" width="50%" class="img-fluid" alt="">
-        </div>
-        <div class="member-info">
-          <h4>FASEG</h4>
-          <span>faculté des sciences economiques</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-      <div class="member" data-aos="fade-up" data-aos-delay="400">
-        <div class="member-img">
-          <img src="fsjp.jpg" width="54%" class="img-fluid" alt="">
-        </div>
-        <div class="member-info">
-          <h4>FSJP</h4>
-          <span>faculté des sciences politiques</span>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-<!-- End Cours Section -->
 
   </main><!-- End #main -->
 
